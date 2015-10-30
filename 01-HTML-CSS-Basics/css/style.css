@@ -1,0 +1,106 @@
+html{
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+}
+
+header{
+    background: red;
+    text-align: center;
+    
+}
+
+footer{
+    background: blue;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+}
+
+aside{
+    background: yellow;
+    border-radius: 5px;
+}
+
+nav{
+    background: green;
+    border-radius: 5px;
+}
+
+.medio{
+    text-align: center;
+    margin: 2px;
+}
+
+.header{
+    font-size: 46px;
+    border-radius: 5px;
+}
+
+.footer{
+    font-size: 10px;
+}
+
+.medio .content{
+    font-size: 14px;
+    display: inline-block;
+    width: 59.5%;
+    height: 110px;
+}
+
+.medio .navigation{
+    font-size: 12px;
+    //display: inline-block;
+    width: 20%;
+    height: 110px;
+    float: left;
+}
+
+.medio .sidebar{
+    font-size: 10px;
+    //display: inline-block;
+    width: 20%;
+    height: 110px;
+    float: right;
+}
+
+[class$="r"] {
+    background: magenta;
+}
+
+[class*="a"]:not([class$="r"]) {
+    background: blue;
+}
+
+:not(prueba){
+    font-weight: bold;
+}
+
+.content[style] {
+    background: green !important;
+    border-radius: 5px;
+}
+
+.content header{
+    height: 18px;
+    background-color: #363636;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;    
+}
+
+.content article{
+    height: 40px;
+    background-color: #363636;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.content footer{
+    height: 18px;
+    background-color: #363636;
+    border-radius: 5px;
+    margin: 5px;
+}
