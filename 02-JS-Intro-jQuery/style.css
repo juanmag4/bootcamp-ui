@@ -1,0 +1,28 @@
+section{
+    text-align: center;
+}
+
+.bordes{
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 48rem;
+    width: 90%;
+}
+
+.wrapper{
+    position:relative;
+}
+.right,.left{
+    width:50%; position:absolute;
+}
+.right{
+    right:0;
+}
+.left{
+    left:0;
+}
